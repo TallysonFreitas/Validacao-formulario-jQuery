@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(176, 230, 95);
+    color: white;
+    font: normal 1.5em sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+
+header h1{
+    text-shadow: 2px 2px 8px black;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    margin-top: 20px;
+}
+
+form div{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+form div input{
+    padding: 6px;
+}
+
+form div label{
+    font: bold normal 1em sans-serif;
+}
